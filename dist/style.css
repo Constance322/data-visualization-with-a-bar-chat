@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#chart {
+  width: 800px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: darkblue;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+}
